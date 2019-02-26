@@ -35,13 +35,16 @@
 		</nav>
 		
 		
-		<hr>
-		{% for p in site.pages % }
-		{! if p.animal=="Bear" %}
-		<a href="{{ p.permalink }}"> {{ p.title }} </a>
+	<hr>
+		
+	{% for p in site.pages %}
+		{% if p.animal=="Bear" %}
+			<a href="{{ p.permalink }}"> {{ p.title }} </a>
 		{% endif %}
-		{% endfor %}
-		<hr>
+	{% endfor %}	
+		
+		
+	<hr>
 		
         <h1>{{ page.title }}</h1>
 		
