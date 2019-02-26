@@ -1,10 +1,13 @@
 ---
 title:AppleTree!
+color: Yellow
+animal:Beluga
 ---
 
-Apple tree is not red but apple is.
 
 ### The Apple Tree
 
-### THe Apple
+Apple tree is not red but apple is.
+
+### The Apple
 
