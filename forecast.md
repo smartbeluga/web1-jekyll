@@ -3,6 +3,7 @@ title: Forecast
 layout: page
 date: 2019-03-05
 color: Red
+animal: Girraff
 ---
 
 This is an interior page.
