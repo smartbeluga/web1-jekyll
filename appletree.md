@@ -1,7 +1,7 @@
 ---
 title:AppleTree!
 color: Yellow
-animal:Beluga
+animal: Beluga
 ---
 
 
