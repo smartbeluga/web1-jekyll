@@ -1,7 +1,9 @@
 ---
-title:AppleTree!
-color: Yellow
-animal: Beluga
+title: Apple Tree
+layout: page
+date: 2019-03-05
+color: Red
+animal: Bear
 ---
 
 
