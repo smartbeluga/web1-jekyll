@@ -9,4 +9,4 @@ This is an interior page.
 
 No it's not. It's an exterior page.
 
-### Exterior
+## Exterior
