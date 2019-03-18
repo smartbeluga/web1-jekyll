@@ -26,38 +26,188 @@ div, main, article, section, aside, hgroup, header, footer, address, nav {
 /* ------------------------------------------------------------ */
 /* start project-specifc styles below this line */
 
-body {
+
+.homepage {
 	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5em;
-	color: #222;
+	background-image: url(../img/Desktop-HD.jpg);
+	background-size: cover;
+
 }
 
-/*	Generally, you will only want one container element in
-	the document, wrapping around the main content area. 
-	If you have more than one container, you are probably doing
-	something wrong. 	
-*/
-.container {
-	padding: 1em;
-	background-color: #F0F0F0;
+
+:root {
+  --mainColor: #0002ff;;
 }
+
+/*---
+body {
+  align-items: center;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  height: 100vh;
+  justify-content: center;
+}
+
+---*/
+
+a {
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+
+
+
+
+.frontpagetitle{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 120px;
+	color: white;
+	line-height:122px;
+	text-align: right;
+	font-weight: 700;
+	margin-right: 200px;
+
+}
+
+
+.frontpagesubtitle {
+font-family: adobe-caslon-pro, serif;
+font-weight: 400;
+font-style: normal;
+color: white;
+font-size: 60px;
+margin-left: 250px;
+margin-top: 200px;
+}
+
+
+
+
+.detailedpagetitle{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	color: black;
+	line-height:122px;
+	text-align: right;
+	font-weight: 600;
+	margin-right: 150px;
+
+}
+
+
+.detailedpagesubtitle {
+font-family: adobe-caslon-pro, serif;
+font-weight: 400;
+font-style: normal;
+color: black;
+font-size: 45px;
+margin-left: 50px;
+margin-top: 50px;
+line-height: 100px;
+width: 250px;
+}
+
+.vl {
+  border-left: 3px solid black;
+  height: 1600px;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 180px;
+  top: 0;
+display: inline-block;
+}
+
+.itemimg {
+display: inline-block;
+margin-left: 500px;
+width: 600px;
+margin-top: -250px;
+
+}
+
+
+
+.itemdetails h3 
+
+{
+font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+		margin-left: 500px;
+}
+
+
+
+.itemdetails h4
+
+{
+font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight:600;
+	margin-left: 500px;
+
+}
+
+.itemdetails p
+
+{
+font-family: adobe-caslon-pro, serif;
+	font-size: 20px;
+	font-weight:400;
+	margin-left: 500px;
+	width: 800px;
+}
+
 
 
 
 /* ------------------------------------------------------------ */
 /* media query containing styles for larger screens */
-@media (min-width: 720px) {
+@media (max-width: 414px) {
+
+body{
+background-size: auto 100%;
+}
+
 	
-	/* container on larger screens */
-	.container {
-		width: 90%;
-		max-width: 1200px;
-		margin: 2em;
-		margin-right: auto;
-		margin-left: auto;
-		padding: 2em;
-		border: 1px solid #ddd;
-	}
+
+.frontpagetitle{
+	font-size: 50px;
+	text-align: center;
+	line-height: 52px;
+	margin:0px;
+	margin-top: 50px;
+}
+
+.frontpagesubtitle{
+margin-left:0px;
+text-align: center;
+font-size: 40px;
+margin:0px;
+padding:0px;
+width: 120px;
+margin:auto;
+margin-top: 300px;
+
+line-height:50px;
+
+}
+
+
+
 
 } /* end media query */
