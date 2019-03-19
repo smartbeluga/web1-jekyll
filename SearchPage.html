@@ -9,11 +9,9 @@ title: search
 <div class="search">
 
 {% for items in site.items %}
-<img class="searchimg" src="{{items.thumbnail_img}}">
+<img class="searchimg" src="{{ items.thumbnail_img }}">
 	<h3>{{ items.title }}</h3>
-
-
-{% endfor %}}
+{% endfor %}
 
 </div>
 
