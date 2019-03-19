@@ -8,10 +8,9 @@ title: search
 <div class="grid-container">
 <div class="search">
 
-
 {% for items in site.items %}
-<img class="searchimg" src="{{p.thumbnail_img}}">
-	<h3>{{ post.title }}</h3>
+<img class="searchimg" src="{{items.thumbnail_img}}">
+	<h3>{{ items.title }}</h3>
 
 
 {% endfor %}}
