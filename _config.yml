@@ -1,15 +1,2 @@
-
-# Site settings
-title: Your awesome title
-description: A starter site
-baseurl: "/web1-jekyll" # folder where your site lives, e.g. /web1-sp - needs to start with a slash
-
-# Build settings
-markdown: kramdown
-
-defaults:  
-  # settings for pages unless an alternative is specified
-  - scope:
-      path: ""
-    values:
-      layout: "page"
+Collections:
+  items:
