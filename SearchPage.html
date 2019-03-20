@@ -8,10 +8,10 @@ title: Search Page
 
 
 
-{% for page in site.pages %}
+{% for page in items.pages %}
 <div class="grid-container">
 <div class="search">
-<img class="searchimg" src="{{ page.img_path }}">
+<a href="{{ site.baseurl }}{{ page.url }}"><img class="searchimg" src="{{ page.img_path }}"></a>
 	<h3>{{ page.title }}</h3>
 </div>
 {% endfor %}
