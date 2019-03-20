@@ -5,15 +5,18 @@ title: Search Page
 
 
 
-<div class="grid-container">
-<div class="search">
+
+
 
 {% for page in site.pages %}
+<div class="grid-container">
+<div class="search">
 <img class="searchimg" src="{{ page.img_path }}">
 	<h3>{{ page.title }}</h3>
+</div>
 {% endfor %}
 
-</div>
+
 
 
 <div class="search">
