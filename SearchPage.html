@@ -9,10 +9,12 @@ title: Search Page
 <div class="grid-container">
 
 {% for page in site.pages %}
+{% if p.img_path contains 'img' %}
 <div class="search">
 <a href="{{ site.baseurl }}{{ page.url }}"><img class="searchimg" src="{{ page.img_path }}"></a>
 	<h3>{{ page.title }}</h3>
 </div>
+{% endif %}
 {% endfor %}
 
 
