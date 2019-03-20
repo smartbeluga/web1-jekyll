@@ -9,7 +9,7 @@ title: Search Page
 <div class="search">
 
 {% for page in site.pages %}
-<img class="searchimg" src="{{ items.thumbnail_img }}">
+<img class="searchimg" src="{{ page.img_path }}">
 	<h3>{{ page.title }}</h3>
 {% endfor %}
 
