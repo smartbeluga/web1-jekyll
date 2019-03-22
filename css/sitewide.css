@@ -87,6 +87,9 @@ a:visited {
 
 }
 
+.frontpagetitle a:visited{
+	color:white;
+}
 
 .frontpagesubtitle {
 font-family: adobe-caslon-pro, serif;
