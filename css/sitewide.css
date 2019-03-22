@@ -85,8 +85,12 @@ a:visited {
 	font-weight: 700;
 	margin-right: 200px;
 
+
 }
 
+.frontpagetitle a:visited{
+	color: white;
+}
 
 .frontpagesubtitle {
 font-family: adobe-caslon-pro, serif;
@@ -109,7 +113,15 @@ margin-top: 200px;
 	text-align: right;
 	font-weight: 600;
 	margin-right: 150px;
+	  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; 
 
+}
+
+.detailedpagetitle:hover{
+	letter-spacing: 1px;
 }
 
 
