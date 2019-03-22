@@ -87,9 +87,6 @@ a:visited {
 
 }
 
-.frontpagetitle a:visited{
-	color:white;
-}
 
 .frontpagesubtitle {
 font-family: adobe-caslon-pro, serif;
@@ -105,9 +102,13 @@ margin-top: 200px;
 
 
 .center__text {
-  margin: auto;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 60px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	color: black;
+	line-height:122px;
+	text-align: right;
+	font-weight: 600;
+	margin-right: 150px;
 }
 
 .glitch {
@@ -161,6 +162,7 @@ margin-top: 200px;
   75% { top: 0px; left: -4px; clip: rect(95px, 9999px, 53px, 0) }
   100% { top: -1px; left: -1px; clip: rect(31px, 9999px, 149px, 0) }
 }
+
 
 
 .detailedpagesubtitle {
