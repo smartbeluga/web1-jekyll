@@ -32,6 +32,7 @@ div, main, article, section, aside, hgroup, header, footer, address, nav {
 	line-height: 1.5em;
 	background-image: url(../img/Repeated-background.jpg);
 	background-size: repeat;
+	background-size: 1000px
 
 }
 
