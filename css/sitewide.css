@@ -70,9 +70,7 @@ a:hover {
 }
 
 
-a:visited {
-	color: black;
-}
+
 
 
 
@@ -123,7 +121,7 @@ text-align: right;
 
 
 .searchpage{
-	background-image: url(img/Background2.jpg);
+	background-image: url(../img/Background2.jpg);
 }
 
 .ex span {
@@ -201,6 +199,11 @@ margin-left: 50px;
 margin-top: 50px;
 line-height: 100px;
 width: 250px;
+}
+
+
+.detailedpagesubtitle a:visited {
+	color: black;
 }
 
 .vl {
