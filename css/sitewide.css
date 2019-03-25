@@ -376,7 +376,7 @@ background-size: auto 100%;
 
 .homepage {
   background-image: url(../img/Repeated-background.jpg);
-  background-size: cover;
+  background-size: 1000px;
  }
 
 .frontpagetitle{
@@ -427,14 +427,22 @@ width: 250px;
   grid-template-columns: auto;
   grid-gap: 5px;
   padding: 5px;
-  width: 350px;
+  width: 300px;
   margin: auto;
   background-color:red;
+  text-align: center;
 }
 
 
 .filter{
   margin:auto;
+}
+
+.searchimg{
+display: inline-block;
+width: 200px;
+height:auto;
+margin: auto;
 }
 
 } /* end media query */
