@@ -1,4 +1,4 @@
-/*---FIlter----*/
+/*---FIlter
 
 
 
@@ -62,7 +62,7 @@ var buttonFilter = '';
 
 
 
-/*---Filter Ends---*/
+Filter Ends---*/
 
 
 
