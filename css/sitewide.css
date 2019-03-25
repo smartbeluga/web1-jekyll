@@ -406,6 +406,7 @@ line-height:80px;
   line-height: 42px;
   text-align: center;
   margin-right: -150px;
+  width: 250px;
 }
 
 .detailedpagesubtitle {
@@ -428,6 +429,7 @@ width: 250px;
   padding: 5px;
   width: 380px;
   margin: auto;
+  background-color:red;
 }
 
 
