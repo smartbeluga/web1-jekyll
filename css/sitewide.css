@@ -376,7 +376,7 @@ background-size: auto 100%;
 
 .homepage {
   background-image: url(../img/Repeated-background.jpg);
-  background-size: 1000px;
+  background-size: cover;
  }
 
 .frontpagetitle{
