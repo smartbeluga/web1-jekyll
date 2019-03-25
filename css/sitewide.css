@@ -446,7 +446,7 @@ margin: auto;
 }
 
 .itemimg{
-  width:200px;
+  width: 300px;
   height: auto;
   margin:auto;
 }
@@ -458,7 +458,8 @@ margin: auto;
 {
   font-size: 25px;
   font-weight: 700;
-  margin-left: -480px;
+  width: 300px;
+  margin: auto;
 }
 
 
@@ -468,7 +469,8 @@ margin: auto;
 {
 
   font-size: 18px;
-  margin-left: -480px;
+  width: 300px;
+  margin: auto;
 
 }
 
@@ -477,8 +479,8 @@ margin: auto;
 {
 font-family: adobe-caslon-pro, serif;
   font-size: 14px;
-  margin-left: -480px;
   width: 300px;
+  margin: auto;
 }
 
 
