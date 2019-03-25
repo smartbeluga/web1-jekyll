@@ -120,6 +120,15 @@ text-align: right;
 /*---Search Page---*/
 
 
+.grid-container div {
+  transition: all 0.5s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+
 .searchpage{
 	font-size: 16px;
 	line-height: 1.5em;
