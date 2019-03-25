@@ -405,9 +405,9 @@ line-height:80px;
   font-size: 40px;
   line-height: 42px;
   text-align: center;
-  margin-right: -150px;
   width: 250px;
   background-color:blue;
+  margin:auto;
 }
 
 .detailedpagesubtitle {
