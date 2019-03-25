@@ -119,6 +119,37 @@ text-align: right;
 
 /*---Search Page---*/
 
+body {  font-family: sans-serif;margin:0; padding:0;  -webkit-box-sizing: border-box;box-sizing: border-box;}
+*, *::before, *::after { box-sizing: inherit;}
+.large-6 { width: 25%;    float: left; margin:0;}
+
+.filter-wrap {
+    background-color: #666;
+    height: 1000px;
+    padding: 60px 80px;
+    color: #fff;
+}
+.large-18 { width: 75%; float: right;margin:0;}
+.fliter-results { padding: 60px 80px;}
+
+.grid-item {width:25%; float:left; margin-bottom:20px; padding:0 30px;}
+
+.img {height:150px; width:100%; display:block; margin-bottom:15px;}
+
+.grid-item p {font-size:14px; margin:0 0 4px 0;}
+.grid-item p.title {font-size:18px; font-weight:bold; margin-bottom:5px;}
+
+.ui-group button {width: 100%;text-align: left;position: relative;outline: none !important;margin-bottom: 10px;}
+
+button {-webkit-appearance: none;-moz-appearance: none;background: transparent;padding: 0;border: 0;border-radius: 0;line-height: 1; cursor:pointer; color:#fff; font-size:18px}
+
+.ui-group button.is-checked::after {background: transparent;border: 3px solid #fff;}
+
+.ui-group button::after {content: '';display: block;background-color: white;width: 14px;height: 14px;position: absolute;right: 0;top: 1px;}
+
+.ui-group h3 {position:relative; display:table;}
+.ui-group h3::after {height:2px; width:100%; background:#fff; position:absolute; bottom:-2px; left:0; content:'';}
+
 
 .grid-container div {
   transition: all 0.5s ease;
