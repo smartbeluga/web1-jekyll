@@ -244,7 +244,7 @@ font-size: 45px;
 margin-left: 50px;
 margin-top: 50px;
 line-height: 100px;
-width: 250px;
+width: 100px;
 }
 
 
@@ -410,6 +410,7 @@ font-style: normal;
 color: black;
 font-size: 30px;
 text-align: center;
+width: 250px;
 }
 
 .vl {
