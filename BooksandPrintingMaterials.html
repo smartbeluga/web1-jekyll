@@ -1,0 +1,20 @@
+---
+layout: search
+title: Search Page
+---
+
+
+
+
+<div class="grid-container">
+
+{% for page in site.pages %}
+{% if page.artifact_class == 'Books and Printing Materials' %}
+<div class="search">
+<a href="{{ site.baseurl }}{{ page.url }}"><img class="searchimg" src="{{ page.img_path }}"></a>
+	<h3>{{ page.title }}</h3>
+</div>
+{% endif %}
+{% endfor %}
+
+</div>
