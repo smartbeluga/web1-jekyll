@@ -1,3 +1,16 @@
+$( ".event-type-select" ).change(function() {
+  var selectedEventType = this.options[this.selectedIndex].value;
+  if (selectedEventType == "all") {
+    $('.container div').removeClass('hidden');
+  } else {
+    $('.container div').addClass('hidden');
+    $('.container div[data-eventtype="' + selectedEventType + '"]').removeClass('hidden');
+  }
+});
+
+
+
+
 function _toArray(arr) { 
   return Array.isArray(arr) ? arr : Array.from(arr)
 }
@@ -17,3 +30,6 @@ function makeSpans (selector) {
 }
 
 makeSpans('h1')
+
+
+
