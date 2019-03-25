@@ -1,3 +1,75 @@
+/*---FIlter----*/
+
+
+
+$( function() {
+
+  // init Isotope
+  var $container = $('.grid').isotope({
+    itemSelector: '.grid-item',
+    layoutMode: 'fitRows',
+    filter: function() {
+      var $this = $(this); 
+      var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
+      return buttonResult;
+      
+      }
+  });
+
+   // store filter for each group
+  var filters = {};
+var buttonFilter = '';
+  
+  $('#filters').on( 'click', '.button', function() {
+    var $this = $(this);
+    // get group key
+    var $buttonGroup = $this.parents('.button-group');
+    var filterGroup = $buttonGroup.attr('data-filter-group');
+    // set filter for group
+    filters[ filterGroup ] = $this.attr('data-filter');
+    // combine filters
+    var filterValue = '';
+    for ( var prop in filters ) {
+      filterValue += filters[ prop ];
+    }
+    
+    buttonFilter = filterValue;
+    
+    
+    
+    
+    // set filter for Isotope
+    $container.isotope();
+  });
+
+  
+  
+  
+
+  
+    // change is-checked class on buttons
+  $('.button-group').each( function( i, buttonGroup ) {
+    var $buttonGroup = $( buttonGroup );
+    $buttonGroup.on( 'click', 'button', function() {
+      $buttonGroup.find('.is-checked').removeClass('is-checked');
+      $( this ).addClass('is-checked');
+    });
+  });
+  
+       
+  
+});
+
+
+
+/*---Filter Ends---*/
+
+
+
+
+
+
+
 $( ".event-type-select" ).change(function() {
   var selectedEventType = this.options[this.selectedIndex].value;
   if (selectedEventType == "all") {
