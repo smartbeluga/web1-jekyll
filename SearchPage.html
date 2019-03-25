@@ -45,7 +45,7 @@ title: Search Page
 
 {% for page in site.pages %}
 {% if page.img_path contains 'img' %}
-<div class="search" data-eventtype="{{page.title}}">
+<div class="search" data-eventtype="{{page.artifact_class}}">
 <a href="{{ site.baseurl }}{{ page.url }}"><img class="searchimg" src="{{ page.img_path }}"></a>
 	<h3>{{ page.title }}</h3>
 </div>
