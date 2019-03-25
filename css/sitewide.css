@@ -425,7 +425,7 @@ width: 250px;
   grid-template-columns: auto;
   grid-gap: 5px;
   padding: 5px;
-  margin-left: -450px;
+  margin: auto;
 }
 
 
