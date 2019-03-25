@@ -399,6 +399,19 @@ line-height:80px;
 }
 
 
+.detailedpagetitle{
+  font-size: 30px;
+  line-height:32px;
+  text-align: center;
+}
+
+.detailedpagesubtitle {
+font-style: normal;
+color: black;
+font-size: 20px;
+text-align: center;
+}
+
 
 
 } /* end media query */
