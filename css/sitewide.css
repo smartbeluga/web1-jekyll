@@ -446,4 +446,41 @@ height:auto;
 margin: auto;
 }
 
+.itemimg{
+  width:200px;
+  height: auto;
+  margin:auto;
+}
+
+
+
+.itemdetails h3 
+
+{
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: -480px;
+}
+
+
+
+.itemdetails h4
+
+{
+
+  font-size: 18px;
+  margin-left: -480px;
+
+}
+
+.itemdetails p
+
+{
+font-family: adobe-caslon-pro, serif;
+  font-size: 14px;
+  margin-left: -480px;
+  width: 300px;
+}
+
+
 } /* end media query */
