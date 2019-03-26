@@ -176,6 +176,7 @@ button {-webkit-appearance: none;-moz-appearance: none;background: transparent;p
 .searchpage{
 	background-image: url(../img/Search-Background.jpg);
 	background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .ex span {
