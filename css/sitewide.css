@@ -416,6 +416,7 @@ margin: auto;
   width: 250px;
   margin:auto;
   margin-top: 50px;
+  background-color:blue;
 }
 
 .detailedpagesubtitle {
@@ -425,6 +426,7 @@ font-size: 30px;
 text-align: center;
 width: 250px;
 margin-top: 20px;
+margin:auto;
 background-color:red;
 }
 
