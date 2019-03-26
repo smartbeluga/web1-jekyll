@@ -80,7 +80,7 @@ a:hover {
 	text-align: right;
 	font-weight: 700;
 	margin-right: 200px;
-
+background-color:red;
 
 }
 
@@ -94,7 +94,6 @@ color: white;
 font-size: 60px;
 margin-left: 250px;
 margin-top: 200px;
-background-color:red;
 display:inline-block;
 }
 
@@ -400,7 +399,6 @@ width: 120px;
 margin:auto;
 margin-top: 300px;
 line-height:80px;
-background-color: yellow;
 
 }
 
