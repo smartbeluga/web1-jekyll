@@ -106,7 +106,7 @@ text-align: left;
 .grid-span{
 grid-column-start: 1;
 grid-column-end: 3;
-margin-top: 100px;
+padding-top: 200px;
 display:inline-block;
 background-color: yellow;
 text-align: right;
