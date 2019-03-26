@@ -476,7 +476,7 @@ margin:auto;
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-  grid-gap: 10px;
+  grid-gap: 20px;
   padding: 5px;
   width: 300px;
   height: 300px;
