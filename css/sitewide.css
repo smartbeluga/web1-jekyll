@@ -174,8 +174,6 @@ button {-webkit-appearance: none;-moz-appearance: none;background: transparent;p
 
 
 .searchpage{
-	font-size: 16px;
-	line-height: 1.5em;
 	background-image: url(../img/Search-Background.jpg);
 	background-size: cover;
 }
