@@ -100,7 +100,7 @@ text-align: right;
 	line-height:122px;
 	text-align: right;
 	font-weight: 700;
-  background-color: orange;
+  background-color: gray;
 
 }
 
@@ -243,8 +243,8 @@ font-family: 'Montserrat', sans-serif;
   text-align: right;
   font-weight: 600;
   margin-right: 150px;
-  margin-left: 500px;
-  background-color: orange;
+  margin-left: 400px;
+  background-color: gray;
 }
 
 .detailedpagesubtitle {
