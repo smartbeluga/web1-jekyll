@@ -400,6 +400,7 @@ background-size: auto 100%;
   font-size: 30px;
   line-height: 32px;
   text-align: center;
+  padding-top: 50px;
 }
 
 .frontpagetitle{
@@ -407,6 +408,7 @@ background-size: auto 100%;
 	text-align: center;
 	line-height: 52px;
   margin: auto;
+  padding-top: 200px;
 }
 
 .frontpagesubtitle{
