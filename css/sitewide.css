@@ -74,7 +74,6 @@ a:hover {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 20px;
-  width: 1000px;
   margin-top: 50px;
 }
 
@@ -116,6 +115,7 @@ font-size: 60px;
 margin-top: 100px;
 display:inline-block;
 background-color: yellow;
+text-align:right;
 }
 
 .frontpagesubtitle a:visited{
