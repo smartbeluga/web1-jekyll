@@ -69,6 +69,14 @@ a:hover {
 
 
 
+ .grid-container-fontpage{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  width: 500px;
+  text-align: center;
+  margin-top: 50px;
+}
 
 
 
@@ -378,16 +386,6 @@ background-size: auto 100%;
   background-image: url(../img/Repeated-background.jpg);
   background-size: 1000px;
  }
-
-
- .grid-container-fontpage{
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 20px;
-  width: 500px;
-  text-align: center;
-  margin-top: 50px;
-}
 
 
 .frontpagetitle{
