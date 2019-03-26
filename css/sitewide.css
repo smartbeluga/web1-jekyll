@@ -176,7 +176,7 @@ button {-webkit-appearance: none;-moz-appearance: none;background: transparent;p
 .searchpage{
 	font-size: 16px;
 	line-height: 1.5em;
-	background-image: url(../img/Background2.jpg);
+	background-image: url(../img/Search-Background.jpg);
 	background-size: cover;
 }
 
@@ -430,6 +430,11 @@ margin:0px;
 padding:0px;
 line-height:80px;
 margin: auto;
+}
+
+.searchpage{
+  background-image: url(../img/Search-Background-Mobile.jpg);
+  background-size: cover;
 }
 
 
