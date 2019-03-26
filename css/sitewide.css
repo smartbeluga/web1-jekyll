@@ -80,7 +80,7 @@ a:hover {
 	text-align: right;
 	font-weight: 700;
 	margin-right: 200px;
-background-color:red;
+background-color:orange;
 
 }
 
@@ -381,12 +381,22 @@ background-size: auto 100%;
   background-size: 1000px;
  }
 
+
+ .grid-container-fontpage{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  width: 500px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
 .frontpagetitle{
 	font-size: 50px;
 	text-align: center;
 	line-height: 52px;
 	margin:0px;
-	margin-top: 50px;
 }
 
 .frontpagesubtitle{
