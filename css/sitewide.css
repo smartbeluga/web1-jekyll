@@ -439,6 +439,7 @@ margin: auto;
 .searchpage{
   background-image: url(../img/Search-Background-Mobile.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
@@ -514,7 +515,7 @@ margin: auto;
 .itemvideo{
  display: inline-block;
   width: 400px;
-  height:225;
+  height: 225px;
   height: auto;
   margin: auto;
   padding-left: 50px;
