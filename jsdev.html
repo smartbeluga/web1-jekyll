@@ -73,19 +73,26 @@
 </div>
 
 
+<p>
+			Appetizers: 
+			<a id="show-apperal" href="#">show</a> | 
+			<a id="hide-apperal" href="#">hide</a> 
+		</p>
+
+
 
 <div class="grid-container">
 
 
 
-<div class="search" data-eventtype="Apperal">
+<div class="food Apperal">
 <a href="/web1-jekyll/1.html"><img class="searchimg" src="img/ShoesHiBrowsBootsca1965.jpg"></a>
 	<h3>Shoes, Hi Brows Boots, ca. 1965</h3>
 </div>
 
 
 
-<div class="search" data-eventtype="Movie & Preview Copy">
+<div class="Movie & Preview Copy">
 <a href="/web1-jekyll/10.html"><img class="searchimg" src="img/PreviewslideBloodandSand1922.jpg"></a>
 	<h3>Preview slide, Blood and Sand, 1922</h3>
 </div>
@@ -99,7 +106,7 @@
 
 
 
-<div class="search" data-eventtype="Apperal">
+<div class="food Apperal">
 <a href="/web1-jekyll/12.html"><img class="searchimg" src="img/GloveNightmareonElmStreetRazorGlove1984.jpg"></a>
 	<h3>Glove, Nightmare on Elm Street Razor Glove, 1984</h3>
 </div>
@@ -260,8 +267,34 @@
 
 </div>
 
-<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
- <script  src="js/index.js"></script>
+	<!-- Load scripts -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+
+
+	<script>
+
+	   /* $('.food').hide(0); */
+
+	    $("a#show-apperal").click(function() {
+	      $('.apperal').show(300);
+	    });
+
+	    $("a#hide-apperal").click(function() {
+	      $('.apperal').hide(300);
+	    });
+
+	    $("a#show-entree").click(function() {
+	      $('.entree').show(300);
+	    });
+
+	    $("a#hide-entree").click(function() {
+	      $('.entree').hide(300);
+	    });
+
+	</script>
 
 	
 </body>
