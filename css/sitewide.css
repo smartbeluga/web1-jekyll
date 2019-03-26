@@ -107,7 +107,6 @@ text-align: left;
 .grid-span{
 grid-column-start: 1;
 grid-column-end: 3;
-padding-top: 50px;
 display:inline-block;
 background-color: yellow;
 text-align: right;
