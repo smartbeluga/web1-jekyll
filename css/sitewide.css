@@ -82,7 +82,7 @@ a:hover {
 font-family: 'Montserrat', sans-serif;
 font-weight: 200;
 text-align: right;
-  font-size: 50px;
+  font-size: 80px;
   line-height: 52px;
   color: #999;
   letter-spacing: 5px;
@@ -90,6 +90,7 @@ text-align: right;
   transition: 0.5s;
   padding-top: 200px;
   padding-left: 50px;
+  background-color: blue;
 }
 
 
@@ -100,6 +101,7 @@ text-align: right;
 	line-height:122px;
 	text-align: right;
 	font-weight: 700;
+    background-color: red;
 
 }
 
@@ -115,7 +117,7 @@ font-family: adobe-caslon-pro, serif;
 font-weight: 400;
 font-style: normal;
 color: white;
-font-size: 80px;
+font-size: 60px;
 }
 
 .frontpagesubtitle a:visited{
