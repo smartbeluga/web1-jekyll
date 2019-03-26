@@ -408,9 +408,9 @@ background-size: auto 100%;
 	font-size: 50px;
 	text-align: center;
 	line-height: 52px;
-	margin-right: 0px;
   width: 300px;
   margin: auto;
+  background-color: red;
 }
 
 .frontpagesubtitle{
