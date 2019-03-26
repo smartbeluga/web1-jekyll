@@ -355,6 +355,7 @@ margin-left: 20px;
   grid-gap: 5px;
   padding: 5px;
   		margin-left: 450px;
+      margin-top: 10px;
 }
 
 .searchimg{
@@ -459,9 +460,9 @@ background-color:red;
 
 
 .filter{
-  margin:auto;
+  width: 300px;
+  margin: auto;
   margin-top: 30px;
-}
 }
 
 .searchimg{
