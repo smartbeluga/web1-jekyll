@@ -392,9 +392,9 @@ background-size: auto 100%;
   display: grid;
   grid-template-columns: auto;
   grid-gap: 20px;
-  width: 300px;
   text-align: center;
   margin-right: 0px;
+  margin: auto;
 }
 
 
