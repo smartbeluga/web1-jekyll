@@ -103,12 +103,12 @@ display:inline-block;
 
 .container {
 font-family: 'Montserrat', sans-serif;
-font-weight: 400;
+font-weight: 200;
 text-align: left;
   margin-left: 50px;
   margin-top: 50px;
-  font-size: 26px;
-  line-height: 28px;
+  font-size: 50px;
+  line-height: 52px;
   color: #999;
   letter-spacing: 5px;
   display:inline-block;
@@ -399,7 +399,7 @@ width: 120px;
 margin:auto;
 margin-top: 300px;
 line-height:80px;
-
+margin: auto;
 }
 
 
