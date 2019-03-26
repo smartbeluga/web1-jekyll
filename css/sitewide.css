@@ -474,16 +474,15 @@ margin:auto;
 display: inline-block;
 width: 200px;
 height:auto;
-margin-left: 50px;
+margin: auto;
+
 }
 
 .itemimg{
+  display: inline-block;
   width: 300px;
   height: auto;
-  margin-left: 0px;
-  margin-right: 0px;
   margin: auto;
-  text-align: center;
 }
 
 
