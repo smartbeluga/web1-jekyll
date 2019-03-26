@@ -74,9 +74,8 @@ a:hover {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 20px;
-  width: 500px;
+  width: 1000px;
   margin-top: 50px;
-  margin-right: 200px;
 }
 
 .container {
@@ -483,7 +482,7 @@ margin: auto;
   width: 300px;
   height: auto;
   margin: auto;
-  margin-left: 50px;
+  padding-left: 50px;
 }
 
 
