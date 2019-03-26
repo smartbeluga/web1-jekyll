@@ -278,6 +278,9 @@ margin-top: -250px;
 
 }
 
+.itemvideo{
+  height: 680px;
+}
 
 
 .itemdetails h3 
@@ -506,7 +509,9 @@ margin: auto;
   text-align: center;
 }
 
-
+.itemvideo{
+  height: 400px;
+}
 
 .itemdetails h3 
 
