@@ -56,7 +56,7 @@ title: Search Page
 
 {% for page in site.pages %}
 {% if page.img_path contains 'img' %}
-<div class="search {{ page.artifact_class }} {{ page.artifact_medium }} all">
+<div class="search {{ page.artifact_class }} {{ page.medium }} all">
 <a href="{{ site.baseurl }}{{ page.url }}"><img class="searchimg" src="{{ page.img_path }}"></a>
 	<h3>{{ page.title }}</h3>
 </div>
