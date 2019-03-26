@@ -402,13 +402,16 @@ background-size: auto 100%;
 .container {
   font-size: 30px;
   line-height: 32px;
+  text-align: center;
 }
 
 .frontpagetitle{
 	font-size: 50px;
 	text-align: center;
 	line-height: 52px;
-	margin:0px;
+	margin-right: 0px;
+  width: 300px;
+  margin: auto;
 }
 
 .frontpagesubtitle{
@@ -455,6 +458,7 @@ margin:auto;
   grid-gap: 5px;
   padding: 5px;
   width: 300px;
+  height: 300px;
   margin: auto;
   text-align: center;
 }
