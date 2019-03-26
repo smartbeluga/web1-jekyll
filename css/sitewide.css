@@ -94,6 +94,8 @@ color: white;
 font-size: 60px;
 margin-left: 250px;
 margin-top: 200px;
+background-color:red;
+display:inline-block;
 }
 
 .frontpagesubtitle a:visited{
@@ -103,13 +105,14 @@ margin-top: 200px;
 .container {
 font-family: 'Montserrat', sans-serif;
 font-weight: 400;
-text-align: right;
-  margin-right: 150px;
+text-align: left;
+  margin-left: 50px;
   margin-top: 50px;
   font-size: 26px;
   line-height: 28px;
   color: #999;
   letter-spacing: 5px;
+  display:inline-block;
   transition: 0.5s;
 }
 
