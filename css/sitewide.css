@@ -279,7 +279,9 @@ margin-top: -250px;
 }
 
 .itemvideo{
-  height: 680px;
+  width: 560; 
+  height: 315;
+  margin-left: 500px;
 }
 
 
@@ -510,7 +512,13 @@ margin: auto;
 }
 
 .itemvideo{
-  height: 400px;
+ display: inline-block;
+  width: 400px;
+  height:225;
+  height: auto;
+  margin: auto;
+  padding-left: 50px;
+  text-align: center;
 }
 
 .itemdetails h3 
