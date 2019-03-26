@@ -90,7 +90,6 @@ text-align: left;
   transition: 0.5s;
   padding-top: 200px;
   padding-left: 50px;
-  background-color: red;
 }
 
 
@@ -101,14 +100,13 @@ text-align: left;
 	line-height:122px;
 	text-align: right;
 	font-weight: 700;
-  background-color: blue;
+
 }
 
 .grid-span{
 grid-column-start: 1;
 grid-column-end: 3;
 display:inline-block;
-background-color: yellow;
 text-align: right;
 }
 
