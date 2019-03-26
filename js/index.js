@@ -67,7 +67,7 @@ Filter Ends---*/
 
 
 
-
+/*---
 
 
 $( ".category" ).change(function() {
@@ -79,6 +79,8 @@ $( ".category" ).change(function() {
     $('.container div[data-eventtype="' + selectedEventType + '"]').removeClass('hidden');
   }
 });
+
+--*/
 
 
 
