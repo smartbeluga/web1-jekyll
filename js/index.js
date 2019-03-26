@@ -70,7 +70,7 @@ Filter Ends---*/
 
 
 
-$( ".event-type-select" ).change(function() {
+$( ".category" ).change(function() {
   var selectedEventType = this.options[this.selectedIndex].value;
   if (selectedEventType == "all") {
     $('.container div').removeClass('hidden');
