@@ -8,7 +8,7 @@ title: Search Page
     <p>
       Artifact Class: 
       <a id="show-Apperal" href="#">Apparel</a> | 
-      <a id="show-Book" href="#">Books and Printing Materials</a>
+      <a id="show-Books and Printing Materials" href="#">Books and Printing Materials</a>
       <a id="show-Related" href="#">Movie Related Merchandise</a>
  <a id="show-Photos" href="#">Photos & Drawings</a>
 <a id="show-Equipments" href="#">Equipments</a>
@@ -19,15 +19,15 @@ title: Search Page
     </p>
 
     <p>
-      Equipments:
-      <a id="show-Equipments" href="#">show</a> | 
+      Medium:
+      <a id="show-" href="#">show</a> | 
       <a id="hide-Equipments" href="#">hide</a> 
     </p>
 
     <p>
       All:
-      <a id="show-all" href="#">show</a> | 
-      <a id="hide-all" href="#">hide</a> 
+      <a id="show-all" href="#">All</a> | 
+      <a id="hide-all" href="#">Reset</a> 
     </p>
 
   <select class="year">
@@ -82,8 +82,8 @@ title: Search Page
         $('.Apperal').show(300);
       });
 
-      $("a#hide-Apperal").click(function() {
-        $('.Apperal').hide(300);
+      $("a#show-Books and Printing Materials").click(function() {
+        $('.Books and Printing Materials').show(300);
       });
 
       $("a#show-Equipments").click(function() {
