@@ -83,12 +83,12 @@ font-family: 'Montserrat', sans-serif;
 font-weight: 200;
 text-align: right;
   font-size: 80px;
-  line-height: 52px;
+  line-height: 82px;
   color: #999;
   letter-spacing: 5px;
   display:inline-block;
   transition: 0.5s;
-  padding-top: 200px;
+  padding-top: 150px;
   padding-left: 50px;
   background-color: blue;
 }
