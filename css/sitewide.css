@@ -416,7 +416,7 @@ color: black;
 font-size: 30px;
 text-align: center;
 width: 250px;
-margin-top: -30px;
+margin-top: 20px;
 }
 
 .vl {
@@ -449,7 +449,7 @@ margin: auto;
 .itemimg{
   width: 300px;
   height: auto;
-  margin:auto;
+  margin: auto;
 }
 
 
@@ -461,6 +461,7 @@ margin: auto;
   font-weight: 700;
   width: 300px;
   margin: auto;
+  margin-top: 20px;
 }
 
 
@@ -472,6 +473,7 @@ margin: auto;
   font-size: 18px;
   width: 300px;
   margin: auto;
+  margin-top: 10px;
 
 }
 
@@ -479,7 +481,7 @@ margin: auto;
 
 {
 font-family: adobe-caslon-pro, serif;
-  font-size: 14px;
+  font-size: 16px;
   width: 300px;
   margin: auto;
 }
