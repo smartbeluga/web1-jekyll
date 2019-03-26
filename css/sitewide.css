@@ -101,8 +101,6 @@ text-align: left;
 	line-height:122px;
 	text-align: right;
 	font-weight: 700;
-background-color:orange;
-
 }
 
 
@@ -401,6 +399,11 @@ background-size: auto 100%;
 }
 
 
+.container {
+  font-size: 30px;
+  line-height: 32px;
+}
+
 .frontpagetitle{
 	font-size: 50px;
 	text-align: center;
@@ -473,8 +476,10 @@ margin: auto;
 .itemimg{
   width: 300px;
   height: auto;
+  margin-left: 0px;
+  margin-right: 0px;
   margin: auto;
-  text-align:center;
+  text-align: center;
 }
 
 
