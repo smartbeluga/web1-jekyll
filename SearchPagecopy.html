@@ -7,20 +7,20 @@ title: Search Page
 
     <p>
       Artifact Class: 
-      <a id="show-Apperal" href="#">Apparel</a> | 
-      <a id="show-Books and Printing Materials" href="#">Books and Printing Materials</a>
-      <a id="show-Related" href="#">Movie Related Merchandise</a>
- <a id="show-Photos" href="#">Photos & Drawings</a>
-<a id="show-Equipments" href="#">Equipments</a>
-<a id="show-Promotion" href="#">Promotion Materials</a>
-<a id="show-Props" href="#">Props Scenery</a>
-<a id="show-Music" href="#">Music & Sounds</a>
-<a id="show-Copys" href="#">Movie & Preview Copys</a>
+      <a id="show-apperal" href="#">Apparel</a> | 
+      <a id="show-books" href="#">Books and Printing Materials</a>
+      <a id="show-related" href="#">Movie Related Merchandise</a>
+ <a id="show-photos" href="#">Photos & Drawings</a>
+<a id="show-equipments" href="#">Equipments</a>
+<a id="show-promotion" href="#">Promotion Materials</a>
+<a id="show-props" href="#">Props Scenery</a>
+<a id="show-music" href="#">Music & Sounds</a>
+<a id="show-copys" href="#">Movie & Preview Copys</a>
     </p>
 
     <p>
       Medium:
-      <a id="show-" href="#">show</a> | 
+      <a id="show-TV" href="#">show</a> | 
       <a id="hide-Equipments" href="#">hide</a> 
     </p>
 
@@ -56,7 +56,7 @@ title: Search Page
 
 {% for page in site.pages %}
 {% if page.img_path contains 'img' %}
-<div class="search {{ page.artifact_class }} {{ page.medium }} all">
+<div class="search {{ page.artifact_class_short }} {{ page.medium }} all">
 <a href="{{ site.baseurl }}{{ page.url }}"><img class="searchimg" src="{{ page.img_path }}"></a>
 	<h3>{{ page.title }}</h3>
 </div>
