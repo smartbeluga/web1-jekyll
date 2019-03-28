@@ -248,7 +248,7 @@ font-family: 'Montserrat', sans-serif;
   margin-right: 150px;
   margin-left: 400px;
   background-color: orange;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .detailedpagesubtitle {
@@ -260,6 +260,10 @@ font-size: 45px;
 margin-left: 50px;
 line-height: 100px;
 width: 100px;
+}
+
+.detailedpagesubtitle a {
+  color: black;
 }
 
 
@@ -294,9 +298,7 @@ background-color: orange;
 }
 
 
-.detailedpagesubtitle a, .filter p a:visited {
-	color: black;
-}
+
 
 .vl {
   border-left: 3px solid black;
@@ -391,7 +393,7 @@ margin-left: 20px;
 
 
 .grid-container {
-  margin-top: -400px;
+  margin-top: -700px;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 5px;
