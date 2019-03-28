@@ -261,11 +261,11 @@ line-height: 100px;
 width: 100px;
 }
 
-.filter{
+.slectionfilter{
   margin-top: 200px;
 }
 
-.filter p 
+.slectionfilter p 
 {
   font-family: adobe-caslon-pro, serif;
   font-weight: 500;
@@ -273,7 +273,7 @@ width: 100px;
   margin-left: 50px;
 }
 
-.filter p a
+.slectionfilter p a
 {
   font-size: 16px;
   font-weight:400;
@@ -282,12 +282,12 @@ width: 100px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.filter p a:hover
+.slectionfilter p a:hover
 {
  background-color: orange;
 }
 
-.filter p a:visited
+.slectionfilter p a:visited
 {
 color: black;
  background-color: orange;
@@ -356,14 +356,14 @@ font-family: adobe-caslon-pro, serif;
 }
 
 
-/*---
+
 .filter{
 	margin-top: -250px;
 }
 
 
 
-
+/*---
 .category{
 font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
