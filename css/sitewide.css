@@ -279,6 +279,7 @@ width: 100px;
   margin-left: 53px;
   text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    color:black;
 }
 
 .slectionfilter p a:hover
@@ -289,7 +290,7 @@ width: 100px;
 .slectionfilter p a:visited
 {
 color: black;
- background-color: orange;
+background-color: orange;
 }
 
 
@@ -390,7 +391,7 @@ margin-left: 20px;
 
 
 .grid-container {
-  margin-top: -250px;
+  margin-top: -400px;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 5px;
