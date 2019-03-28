@@ -506,6 +506,14 @@ margin:auto;
 }
 
 
+.slectionfilter p, .slectionfilter p a
+{
+text-align: left;
+width: 250px;
+margin:auto;
+}
+
+
 
 .vl {
   height: 0px;
