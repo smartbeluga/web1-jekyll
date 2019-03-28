@@ -265,17 +265,17 @@ width: 100px;
 {
   font-family: adobe-caslon-pro, serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 50px;
 }
 
 .filter p a
 {
-  font-family: adobe-caslon-pro, serif;
   font-size: 16px;
   font-weight:400;
   margin-left: 55px;
   text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .filter p a:hover
