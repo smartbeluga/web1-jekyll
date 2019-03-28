@@ -268,14 +268,14 @@ width: 100px;
   font-family: adobe-caslon-pro, serif;
   font-weight: 500;
   font-size: 25px;
-  margin-left: 50px;
+  margin-left: 52px;
 }
 
 .slectionfilter p a
 {
   font-size: 16px;
   font-weight:400;
-  margin-left: 55px;
+  margin-left: 53px;
   text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
@@ -354,14 +354,11 @@ font-family: adobe-caslon-pro, serif;
 }
 
 
-
+/*---
 .filter{
 	margin-top: -250px;
 }
 
-
-
-/*---
 .category{
 font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
@@ -392,6 +389,7 @@ margin-left: 20px;
 
 
 .grid-container {
+  margin-top: -250px;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 5px;
