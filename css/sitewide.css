@@ -509,11 +509,18 @@ margin:auto;
 .slectionfilter p, .slectionfilter p a
 {
 text-align: left;
-width: 250px;
+width: 200px;
 margin:auto;
 }
 
-
+.slectionfilter p
+{
+font-size: 16;
+}
+.slectionfilter p a
+{
+font-size: 16;
+}
 
 .vl {
   height: 0px;
