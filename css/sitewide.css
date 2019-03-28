@@ -70,7 +70,7 @@ body {
 
 /*---Home Page---*/
 
- .grid-container-fontpage{
+ .grid-container-frontpage{
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 20px;
@@ -395,7 +395,6 @@ margin-left: 20px;
   grid-gap: 5px;
   padding: 5px;
   		margin-left: 450px;
-      margin-top: 10px;
 }
 
 .searchimg{
