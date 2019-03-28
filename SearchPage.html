@@ -3,7 +3,36 @@ layout: search
 title: Search Page
 ---
 
+<div class="slectionfilter">
 
+    <p>
+      <a id="show-all" href="#">Select All</a><br>
+      <a id="hide-all" href="#">Deselect All</a><br>
+    </p>
+
+    <p>
+      Artifact Class<br>
+      <a id="show-apperal" href="#">Apparel</a><br>
+      <a id="show-books" href="#">Books and Printing Materials</a><br>
+      <a id="show-related" href="#">Movie Related Merchandise</a><br>
+ <a id="show-photos" href="#">Photos & Drawings</a><br>
+<a id="show-equipments" href="#">Equipments</a><br>
+<a id="show-promotion" href="#">Promotion Materials</a><br>
+<a id="show-props" href="#">Props Scenery</a><br>
+<a id="show-music" href="#">Music & Sounds</a><br>
+<a id="show-copys" href="#">Movie & Preview Copys</a><br>
+    </p>
+
+    <p>
+      Medium<br>
+      <a id="show-TV" href="#">TV</a><br>
+      <a id="show-Film" href="#">Movie</a><br>
+    </p>
+</div>
+
+
+
+<!---
 <div class="filter">
 <select class="category">
 <option value="all">All Category</option>
@@ -41,12 +70,15 @@ title: Search Page
 </div>
 
 
+--->
+
+
 
 <div class="grid-container">
 
 {% for page in site.pages %}
 {% if page.img_path contains 'img' %}
-<div class="search" data-eventtype="{{page.artifact_class}}">
+<div class="search {{ page.artifact_class_short }} {{ page.medium }} all">
 <a href="{{ site.baseurl }}{{ page.url }}"><img class="searchimg" src="{{ page.img_path }}"></a>
 	<h3>{{ page.title }}</h3>
 </div>
@@ -55,5 +87,70 @@ title: Search Page
 
 </div>
 
-<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
- <script  src="js/index.js"></script>
+  <!-- Load scripts -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+
+  <script>
+
+     /* $('.food').hide(0); */
+
+      $("a#show-apperal").click(function() {
+        $('.apperal').show(300);
+      });
+
+      $("a#show-books").click(function() {
+        $('.books').show(300);
+      });
+
+      $("a#show-related").click(function() {
+        $('.related').show(300);
+      });
+
+      $("a#show-photos").click(function() {
+        $('.photos').show(300);
+      });
+
+            $("a#show-equipments").click(function() {
+        $('.equipments').show(300);
+      });
+
+            $("a#show-promotion").click(function() {
+        $('.promotion').show(300);
+      });
+
+                  $("a#show-props").click(function() {
+        $('.props').show(300);
+      });
+
+            $("a#show-music").click(function() {
+        $('.music').show(300);
+      });
+
+            $("a#show-copys").click(function() {
+        $('.copys').show(300);
+      });
+
+
+       $("a#show-TV").click(function() {
+        $('.TV').show(300);
+      });
+
+
+      $("a#show-Film").click(function() {
+        $('.Film').show(300);
+      });
+
+
+      $("a#show-all").click(function() {
+        $('.all').show(300);
+      });
+
+      $("a#hide-all").click(function() {
+        $('.all').hide(300);
+      });
+
+  </script>
