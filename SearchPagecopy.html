@@ -20,16 +20,18 @@ title: Search Page
 
     <p>
       Medium:
-      <a id="show-TV" href="#">show</a> | 
-      <a id="hide-Equipments" href="#">hide</a> 
+      <a id="show-TV" href="#">TV</a> | 
+      <a id="show-Movie" href="#">Movie</a> 
     </p>
 
     <p>
       All:
-      <a id="show-all" href="#">All</a> | 
-      <a id="hide-all" href="#">Reset</a> 
+      <a id="show-all" href="#">Select All</a> | 
+      <a id="hide-all" href="#">Deselect All</a> 
     </p>
 
+
+<!---
   <select class="year">
   <option value="all">All Years</option>
   <option value="volvo">1910s</option>
@@ -49,6 +51,9 @@ title: Search Page
   <option value="volvo">TV</option>
   <option value="saab">Movie</option>
 </select>
+
+
+--->
 
 
 
@@ -115,6 +120,14 @@ title: Search Page
       });
 
 
+       $("a#show-TV").click(function() {
+        $('.TV').show(300);
+      });
+
+
+      $("a#show-Film").click(function() {
+        $('.Film').show(300);
+      });
 
 
       $("a#show-all").click(function() {
