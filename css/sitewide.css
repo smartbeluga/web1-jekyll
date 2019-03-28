@@ -513,12 +513,13 @@ margin:auto;
 
 .slectionfilter p
 {
-font-size: 16px;
+font-size: 20px;
+margin-top: 5px;
 }
 
 .slectionfilter p a
 {
-font-size: 14px;
+font-size: 18px;
 }
 
 .vl {
